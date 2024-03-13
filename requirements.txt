@@ -1,0 +1,7 @@
+transformers>=4.36.2
+sacrebleu>=2.3.2
+rank-bm25
+rapidfuzz
+numpy
+vllm
+jieba
