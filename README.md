@@ -20,6 +20,11 @@ List of files:
 * `preprocessed/dictionary_za2zh_web+giza.jsonl`: Zhuang-Chinese dictionary augmented with BLI from Giza++.
 * `preprocessed/dictionary_zh2za_web+giza+synonym.jsonl`: Chinese-Zhuang dictionary augmented with BLI from Giza++ and synonyms.
 
+
+### Beta Version
+Our ICLR 2024 Tiny Paper uses a beta version of the dataset, ZhuangBench-Beta. We provide the data in `data-beta-version.zip` (password: `zhuangbench-beta`).
+This data is for archival purposes only. We recommend using the newer data in `data.zip`, which is larger and includes typo corrections.
+
 ## Code
 We provide code of DiPMT++ to reproduce the results in the paper.
 
@@ -42,5 +47,11 @@ The license for the code and data is MIT.
   author={Zhang, Chen and Liu, Xiao and Lin, Jiuheng and Feng, Yansong},
   journal={arXiv preprint arXiv:2402.19167},
   year={2024}
+}
+@inproceedings{zhang2024can,
+  title={Can {LLM}s Learn a New Language on the Fly? A Case Study on  Zhuang},
+  author={Chen Zhang and Mingxu Tao and Quzhe Huang and Zhibin Chen and Yansong Feng},
+  booktitle={The Second Tiny Papers Track at ICLR 2024},
+  year={2024},
 }
 ```
