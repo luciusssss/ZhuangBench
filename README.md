@@ -1,6 +1,10 @@
 # ZhuangBench
 
-Data and code of the paper [*Teaching Large Language Models an Unseen Language on the Fly*](https://arxiv.org/pdf/2402.19167.pdf).
+Data and code for the following papers:
+
+*Arxiv (Full-Length Paper)* [Teaching Large Language Models an Unseen Language on the Fly](https://arxiv.org/pdf/2402.19167.pdf)
+
+*ICLR'24 Tiny Paper* [Can LLMs Learn a New Language on the Fly? A Case Study on Zhuang](https://openreview.net/pdf?id=GTHD2UnDIb)
 
 ## Dataset
 We present ZhuangBench, a collection of NLP resources for Zhuang (壮语), a low-resource language spoken in China.
@@ -22,7 +26,7 @@ List of files:
 
 
 ### Beta Version
-Our ICLR 2024 Tiny Paper uses a beta version of the dataset, ZhuangBench-Beta. We provide the data in `data-beta-version.zip` (password: `zhuangbench-beta`).
+Our ICLR'24 Tiny Paper uses a beta version of the dataset, ZhuangBench-Beta. We provide the data in `data-beta-version.zip` (password: `zhuangbench-beta`).
 This data is for archival purposes only. We recommend using the newer data in `data.zip`, which is larger and includes typo corrections.
 
 ## Code
@@ -49,7 +53,7 @@ The license for the code and data is MIT.
   year={2024}
 }
 @inproceedings{zhang2024can,
-  title={Can {LLM}s Learn a New Language on the Fly? A Case Study on  Zhuang},
+  title={Can {LLM}s Learn a New Language on the Fly? A Case Study on Zhuang},
   author={Chen Zhang and Mingxu Tao and Quzhe Huang and Zhibin Chen and Yansong Feng},
   booktitle={The Second Tiny Papers Track at ICLR 2024},
   year={2024},
