@@ -2,7 +2,7 @@
 
 Data and code for the following papers:
 
-*Arxiv (Full-Length Paper)* [Teaching Large Language Models an Unseen Language on the Fly](https://arxiv.org/pdf/2402.19167.pdf)
+*ACL'24 Findings (Full-Length Paper)* [Teaching Large Language Models an Unseen Language on the Fly](https://arxiv.org/pdf/2402.19167.pdf)
 
 *ICLR'24 Tiny Paper* [Can LLMs Learn a New Language on the Fly? A Case Study on Zhuang](https://openreview.net/pdf?id=GTHD2UnDIb)
 
