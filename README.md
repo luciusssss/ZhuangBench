@@ -1,4 +1,8 @@
-# ZhuangBench
+# Teaching Large Language Models an Unseen Language on the Fly
+
+<div align=center>
+	<img src="zhuang_first_fig.jpg" style="width:600px" />
+</div>
 
 Data and code for the following papers:
 
