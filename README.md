@@ -6,6 +6,8 @@ Data and code for the following papers:
 
 *ICLR'24 Tiny Paper* [Can LLMs Learn a New Language on the Fly? A Case Study on Zhuang](https://openreview.net/pdf?id=GTHD2UnDIb)
 
+[**Project Website**](https://luciusssss.github.io/proj/zhuangbench.html)
+
 ## Dataset
 We present ZhuangBench, a collection of NLP resources for Zhuang (壮语), a low-resource language spoken in China.
 
