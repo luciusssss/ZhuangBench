@@ -52,10 +52,11 @@ The license for the code and data is MIT.
 
 ## Citation
 ```
-@article{zhang2024teaching,
+@inproceedings{zhang2024teaching,
   title={Teaching Large Language Models an Unseen Language on the Fly},
   author={Zhang, Chen and Liu, Xiao and Lin, Jiuheng and Feng, Yansong},
-  journal={arXiv preprint arXiv:2402.19167},
+  booktitle={Findings of the Association for Computational Linguistics ACL 2024},
+  pages={8783--8800},
   year={2024}
 }
 @inproceedings{zhang2024can,
