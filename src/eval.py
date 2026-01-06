@@ -11,7 +11,6 @@ if __name__ == '__main__':
     parser.add_argument('--output_path', type=str, default='pred.jsonl')
     parser.add_argument('--lang', type=str, default='zh')
     parser.add_argument('--leveled', action='store_true')
-    parser.add_argument('--id_to_difficulty_path', type=str, default='/home/zhangc/minority/prompt_translation_2024/data/sentence_to_level/test_200_id_2_difficulty.json')
     args = parser.parse_args()
 
     if args.lang == 'zh':
@@ -47,7 +46,7 @@ if __name__ == '__main__':
     metrics['chrf++'] = chrfpp.corpus_score(preds, refs).score
     metrics['chrf'] = chrf.corpus_score(preds, refs).score
     for key in ['sacrebleu', 'chrf++', 'chrf']:
-        metrics[key] = np.around(metrics[key], decimals=4)
+        metrics[key] = float(np.around(metrics[key], decimals=4))
     print("overall:")
     print(metrics)
 
@@ -69,7 +68,7 @@ if __name__ == '__main__':
             metrics_by_level[level]['chrf++'] = chrfpp.corpus_score(preds, refs).score
             metrics_by_level[level]['chrf'] = chrf.corpus_score(preds, refs).score
             for key in ['sacrebleu', 'chrf++', 'chrf']:
-                metrics_by_level[level][key] = np.around(metrics_by_level[level][key], decimals=4)
+                metrics_by_level[level][key] = float(np.around(metrics_by_level[level][key], decimals=4))
             print(level)
             print(metrics_by_level[level])
         
